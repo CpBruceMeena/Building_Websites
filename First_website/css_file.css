@@ -1,16 +1,19 @@
 body{
   background-color: #6ea6eb;
   font-family: cursive;
+  padding: 30px;
 }
 
 header{
   /* border: 2px solid #1b6bcf; */
-  /* border-radius: 10px; */
+  border-radius: 10px;
+  padding: 5px 0px 5px 0px;
   margin: 0px;
   background-color: #d0d2d6;
 }
 
 img{
+  margin: 20px;
   display: inline-block;
 
 }
