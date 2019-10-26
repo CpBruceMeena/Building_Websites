@@ -1,0 +1,24 @@
+body{
+  background-color: #6ea6eb;
+  font-family: cursive;
+}
+
+header{
+  /* border: 2px solid #1b6bcf; */
+  /* border-radius: 10px; */
+  margin: 0px;
+  background-color: #d0d2d6;
+}
+
+img{
+  display: inline-block;
+
+}
+
+.earth{
+  align : 'left';
+  color: black;
+  margin-right: 450px;
+  font-size: 20px;
+  font-family: cursive;
+}
