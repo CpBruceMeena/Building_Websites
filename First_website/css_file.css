@@ -1,14 +1,22 @@
+*{padding: 0; margin: 0;}
+
 body{
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #6ea6eb;
   font-family: cursive;
-  padding: 30px;
+}
+
+.earth,  .About_earth, .earth_facts, .Earth_neighbours, .lastsection{
+    margin-left: 20px;
+    padding: 20px;
 }
 
 header{
   /* border: 2px solid #1b6bcf; */
-  border-radius: 10px;
-  padding: 5px 0px 5px 0px;
+  padding: 15px 0px 15px 0px;
   margin: 0px;
+  border-radius: 10px;
   background-color: #d0d2d6;
 }
 
