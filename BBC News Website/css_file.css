@@ -144,3 +144,53 @@ body{
   border-right: 1px solid black;
   float: left;
 }
+
+#content{
+  width: 100%;
+  color: black;
+  font-size: 0.7em;
+}
+
+.date{
+  font-weight: bold;
+}
+
+.fixedwidth h1{
+  font-size: 3em;
+  color: blue;
+}
+
+#owl{
+  width: 420px;
+  height: 300px;
+  float: left;
+}
+
+.newsitem{
+  top: -13px;
+  position: relative;
+  left: 10px;
+  width: 250px;
+  float: left;
+  font-size: 1.2em;
+}
+
+.newsitem a{
+  color: #1F4F82;
+  text-decoration: none;
+}
+
+.newsitem a:hover{
+  text-decoration: underline;
+}
+
+.video{
+  background-image: url("images/triangle.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.links{
+  line-height: 1.7em;  
+}
