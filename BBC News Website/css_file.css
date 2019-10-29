@@ -30,6 +30,10 @@ body{
   border-right: 1px solid #990000;
  }
 
+#signindiv:hover{
+  border-bottom: 2px solid white;
+}
+
 #signindiv img{
   position: relative;
   top: 3px;
@@ -43,6 +47,10 @@ body{
   float: left;
   box-sizing: content-box;
   /* display: inline; */
+}
+
+#topmenudiv li:hover{
+    border-bottom: 2px solid white;
 }
 
 #topmenudiv ul{
@@ -121,8 +129,11 @@ body{
   width: 14px;
 }
 
-#topicmenu{
+#topicmenu li:hover{
   /* background-color:  */
+  border-bottom: 2px solid white;
+  background-color: white;
+  color: black;
 }
 
 #topicmenu ul{
@@ -161,7 +172,7 @@ body{
 }
 
 #owl{
-  width: 420px;
+  width: 350px;
   height: 300px;
   float: left;
 }
@@ -192,5 +203,115 @@ body{
 }
 
 .links{
-  line-height: 1.7em;  
+  line-height: 1.7em;
+}
+
+#watchlisten{
+  float: right;
+  background-color: #f2eded;
+  width: 400px;
+  position: relative;
+  top: -50px;
+}
+
+h2{
+  color: #505050;
+  font-size: 2.3em;
+  margin: 10px;
+}
+
+.boxes{
+  float: right;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  padding-right: 20px;
+  width: 60px;
+}
+
+.leftarrow{
+  float: left;
+  border: 1px solid white;
+  height: 132px;
+}
+
+.wlblock{
+  width: 170px;
+  float: left;
+  font-size: 1.2em;
+  background-color: #D1700E;
+  border: 1px solid white;
+}
+
+.wlblock img{
+  width: 170px;
+  height: 85px;
+}
+
+.rblock{
+  width: 170px;
+  float: left;
+  font-size: 1.2em;
+  background-color: #D1700E;
+  border: 1px solid white;
+}
+
+.rblock img{
+  padding-bottom: -5px;
+  width: 170px;
+  height: 85px;
+}
+
+.rightarrow{
+  float: right;
+  border: 1px solid white;
+  height: 132px;
+  width: 27px;
+}
+
+#watchlisten a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+#watchlisten a:hover{
+  text-decoration: underline;
+}
+
+.lower_list{
+  float: left;
+  font-size: 17px;
+  font-style: bold;
+}
+
+#watchlisten ul{
+  width: 380px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 1px;
+  padding-left: 10px;
+  /* padding-right: 5px; */
+  /* margin-right: 1px; */
+}
+
+#watchlisten li{
+  list-style: none;
+  background-image: url("images/live.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 7px 10px 15px 60px;
+  /* border: 0px solid white; */
+  font-size: 1.3em;
+}
+
+.lastitem{
+  border-bottom: 1px solid white;
+  color: #de3e3e;
+}
+
+#watchlisten li a{
+  font-size: 0.8em;
+  color: #de3e3e;
 }
