@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title>Form Validation</title>
+     <link rel="stylesheet" href="css_file.css">
+     <!-- <script type="text/javascript" src="js_file.js"></script> -->
+     <script type="text/javascript" src="jquery_standard_code.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+
+         $("#validation_form").submit(function(event){
+           var error_message = "";
+           event.preventDefault();
+
+           function email_checker(emailtemp){
+             var regx = /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,8})(.[a-z]{2,10})?$/;
+             return regx.test(emailtemp);
+           }
+
+           function number_checker(number){
+             var regx = /^([789][0-9]{9})/;
+             return regx.test(number);
+           }
+
+           if(!email_checker($("#email1").val())){
+             error_message += "Please enter a valid email address.";
+           }
+
+           if(!number_checker($("#telephone").val())){
+             error_message += "<br/> Please enter a valid phone number.";
+           }
+
+           if($("#first").val() !== $("#second").val()){
+             error_message += "<br/> Your password don't match."
+           }
+
+           if(error_message == ""){
+             alert("form submitted successfully");
+           }
+           else{
+             $(".error_message").html(error_message)
+           }
+         });
+
+       });
+
+     </script>
+   </head>
+   <body>
+      <div class="form1">
+         <h1>Fill this form</h1>
+         <div class="error_message"></div>
+         <div class="internal">
+           <form id="validation_form" method="post">
+             <label for="email"> Email: </label>
+             <input id="email1" type="text" name="" value="">
+
+             <label for="telephone">Telephone: </label>
+             <input id="telephone" value="">
+
+              <label for="password">Password: </label>
+             <input id="first" type="password" value="">
+
+             <label for="confirmation">Confirm Password: </label>
+             <input id="second" type="password" value="">
+
+           <input id="btn1" type="submit" value="Submit">
+
+           </form>
+        </div>
+     </div>
+   </body>
+ </html>
