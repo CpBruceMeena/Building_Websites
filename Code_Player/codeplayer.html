@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>CodePlayer</title>
+  <script type="text/javascript" src="F:\Atom Projects\Building_Websites\Form_Validation\jquery_standard_code.js"></script>
+  <script type="text/javascript" src="F:\CS STUFF\jquery-ui-1.12.1\jquery-ui.js"></script>
+  <script type="text/javascript" src = "js_file.js"></script>
+  <link rel="stylesheet" href="F:\CS STUFF\jquery-ui-1.12.1\jquery-ui.structure.css">
+  <link rel="stylesheet" href="F:\CS STUFF\jquery-ui-1.12.1\jquery-ui.css">
+  <link rel="stylesheet" href="F:\CS STUFF\jquery-ui-1.12.1\jquery-ui.theme.css">
+  <link rel="stylesheet" href="F:\CS STUFF\jquery-ui-1.12.1\jquery-ui.theme.min.css">
+  <link rel="stylesheet" href="css_file.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="menubar">
+
+      <div id="logo">
+        CodePlayer
+      </div>
+
+        <ul id="toggles">
+          <li class = "toggle selected ">HTML</li>
+          <li class = "toggle" >CSS</li>
+          <li class = "toggle" >JS</li>
+          <li class = "toggle selected" style = "border:none">Result</li>
+        </ul>
+
+      <div id = "buttonDiv">
+        <button id="runButton">Run</button>
+      </div>
+      <div class="clear"></div>
+      <div class="codeContainer" id="HTMLContainer">
+          <div class="codeLabel">HTML</div>
+            <textarea id="htmlcode">example</textarea>
+      </div>
+      <div class="codeContainer" id="CSSContainer">
+          <div class="codeLabel">CSS</div>
+            <textarea id="csscode">html {background-color:blue} </textarea>
+      </div>
+      <div class="codeContainer" id="JSContainer">
+          <div class="codeLabel">JS</div>
+            <textarea id="jscode">alert("done")</textarea>
+      </div>
+      <div class="codeContainer" id="ResultContainer">
+          <div class="codeLabel">Result</div>
+            <iframe id = 'iframeid'></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

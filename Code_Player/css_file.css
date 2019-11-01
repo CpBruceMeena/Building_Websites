@@ -1,0 +1,109 @@
+body{
+  margin : 0;
+  padding : 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+#menubar{
+  width : 100%;
+  height: 48px;
+  background-color: #e0e8e0;
+  border-bottom: 1px solid grey;
+}
+
+#logo{
+  float: left;
+  display: inline;
+  width: 150px;
+  padding: 10px 0 0 15px;
+  font-weight: bold;
+  font-size: 130%;
+  /* margin-right: 700px; */
+}
+
+#buttonDiv{
+  display: inline;
+  width: 100px;
+  float: right;
+  padding: 8px  0 0;
+}
+
+#runButton{
+  font-size: 120%;
+}
+
+#toggles{
+    margin-left: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+#toggles{
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+  /* padding: 5px; */
+  padding: 0;
+  width: 206.73px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  height: 35px;
+  list-style: none;
+}
+
+#toggles li{
+  font-size: 15px;
+  border-right: 1px solid black;
+  padding: 9px;
+  float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.codeContainer{
+  /* height : 100%; */
+  width : 50%;
+  float: left;
+  position: relative;
+}
+
+.codeContainer textarea{
+  /* background-color: black;
+  color: white; */
+  border: none;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  width: 99%;
+  height: 100%;
+  font-family: monospace;
+  /* text-align: left; */
+  font-size: 120%;
+  box-sizing: border-box;
+  /* padding: 10px; */
+}
+
+.codeLabel{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  /* padding: 10px; */
+}
+
+#CSSContainer, #JSContainer{
+    display: none;
+}
+
+iframe{
+  height: 100%;
+  position: relative;
+  left: 10px;
+  border: none;
+}
+
+.selected{
+  background-color: grey;
+  /* font-style: italic; */
+}
